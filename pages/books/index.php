@@ -21,7 +21,7 @@ $books = getBooks($search, $categoryId, $currentPage, $perPage);
 
 $totalBooks = countOfBooks($search, $categoryId);
 $totalPages = ceil($totalBooks / $perPage);
-print_r($totalPages);
+
 $pageTitle = "Manajemen Buku";
 $pageSubtitle = "Kelola data buku, kategori, dan penulis";
 ?>
